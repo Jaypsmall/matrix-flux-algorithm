@@ -235,6 +235,14 @@ Possible improvements:
 
 ---
 
+# 📚 Documentation
+
+Full theoretical description:
+
+[Read the complete thesis](docs/THESIS.md)
+
+---
+
 # 📜 Project Information
 
 **Name:**
