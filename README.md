@@ -1,4 +1,4 @@
-# Asymmetric Flow and Geometric Absorption Algorithm "La Pekillada"
+# "La Pekillada" Asymmetric Flow and Geometric Absorption Algorithm 
 
 ## Thesis Description
 This repository contains a theoretical, abstract exercise in capital flow management applied to three-variable matrices with a proportional return (3:1).
