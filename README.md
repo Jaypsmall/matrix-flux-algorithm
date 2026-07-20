@@ -1,4 +1,4 @@
-# 🧬 La Pekillada
+# ⚙ La Pekillada
 ## Asymmetric Flow & Geometric Absorption Algorithm
 
 ---
