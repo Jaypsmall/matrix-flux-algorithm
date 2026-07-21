@@ -34,6 +34,8 @@ This repository is based on the **Theory of Asymmetric Flow**, a theoretical fra
 
 The theory proposes that the collective behavior of a multi-variable system should be analyzed as a whole rather than as isolated variables.
 
+The theoretical framework is intentionally independent of any specific implementation, application domain, initial capital, iteration limit, or execution environment. Such constraints belong exclusively to particular algorithms and computational implementations derived from the theory.
+
 The **Asymmetric Flow & Geometric Absorption Algorithm** provides a mathematical implementation of this theoretical framework.
 
 **La Pekillada** is the first reference implementation created to experimentally evaluate the theory under controlled simulations.
@@ -42,7 +44,7 @@ The **Asymmetric Flow & Geometric Absorption Algorithm** provides a mathematical
 
 # 🧩 Concept
 
-The algorithm is based on an elastic distribution system:
+The algorithm is based on a **dynamic asymmetric redistribution model**.
 
 - Three independent variables operate simultaneously.
 - The successful variable returns to minimum exposure.
@@ -200,10 +202,11 @@ Thousands of independent simulations can be executed to measure:
 # 📂 Project Structure
 
 ```text
-matrix-flux-algorithm/
+theory-of-asymmetric-flow/
 
 │
 ├── LICENSE
+├── AUTHORS.md
 ├── README.md
 ├── main.py
 ├── simulator.py
@@ -225,7 +228,7 @@ matrix-flux-algorithm/
 Clone repository:
 
 ```bash
-git clone https://github.com/Jaypsmall/matrix-flux-algorithm
+git clone https://github.com/Jaypsmall/theory-of-asymmetric-flow
 ```
 
 Run simulation:
@@ -261,6 +264,28 @@ Possible improvements:
 
 - 📖 [Theory of Asymmetric Flow](docs/THEORY.md)
 - 📘 [Complete Thesis](docs/THESIS.md)
+
+---
+
+# 🏛 Repository Architecture
+
+This repository is organized into four conceptual layers.
+
+## 1. Theory of Asymmetric Flow
+
+The conceptual framework.
+
+## 2. Asymmetric Flow & Geometric Absorption Algorithm
+
+The mathematical algorithm derived from the theory.
+
+## 3. La Pekillada
+
+The first reference implementation.
+
+## 4. Python Simulation
+
+Computational experiments used to evaluate the implementation under controlled conditions.
 
 ---
 
