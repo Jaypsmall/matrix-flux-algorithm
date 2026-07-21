@@ -283,7 +283,7 @@ La Pekillada
 
 **Type**
 
-Experimental mathematical theory, computational model and simulation framework.
+Experimental mathematical theory, computational model, and simulation framework.
 
 **Status**
 
@@ -295,7 +295,7 @@ Research and development.
 
 **Copyright © 2026 Jaypsmall. All Rights Reserved.**
 
-This repository contains original theoretical work, mathematical models, algorithms, software implementations, source code, documentation, simulations, and related materials created by the author.
+This repository contains original theoretical work, mathematical models, algorithms, software implementations, documentation, simulations, and related materials created by the author.
 
 No part of this repository may be copied, reproduced, modified, redistributed, incorporated into another project, or used for commercial purposes without the prior written permission of the author.
 
@@ -309,11 +309,9 @@ See the **LICENSE** file for the complete license terms.
 
 # ⚠️ Disclaimer
 
-This repository presents an experimental mathematical framework intended for research, simulation and educational purposes.
+This repository presents an experimental mathematical framework intended for research, simulation, and educational purposes.
 
-The theoretical framework, algorithms and software implementations are designed to study mathematical behaviour under controlled simulations.
-
-Nothing in this repository should be interpreted as a guarantee of financial performance, predictive capability or practical results in real-world systems.
+The computational models and implementations are designed to explore theoretical behavior under controlled simulations and should not be interpreted as guarantees of real-world performance.
 
 ---
 
