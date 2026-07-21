@@ -1,71 +1,73 @@
-# Teoría del Flujo Asimétrico
+# Theory of Asymmetric Flow
 
-**Autor:** @Jaypsmall
+**Author:** @Jaypsmall
 
-**Fecha:** 20 de julio de 2026
+**Version:** 1.0
 
----
-
-# Introducción
-
-La Teoría del Flujo Asimétrico propone un nuevo enfoque para el estudio de sistemas dinámicos formados por múltiples variables interdependientes.
-
-En lugar de analizar cada variable de manera aislada, la teoría considera que el comportamiento del sistema emerge de la interacción continua entre todas ellas.
-
-Su objetivo es describir cómo la redistribución progresiva de la exposición entre estados puede generar patrones de estabilidad, compensación y adaptación frente a la variabilidad de los eventos.
+**Date:** July 20, 2026
 
 ---
 
-# Principios Fundamentales
+# Introduction
 
-## I. Principio del Flujo Asimétrico
+The Theory of Asymmetric Flow proposes a conceptual framework for studying dynamic systems composed of multiple interdependent variables.
 
-La evolución de un sistema no depende únicamente del comportamiento individual de cada variable, sino del intercambio dinámico de exposición entre todas ellas.
+Rather than analyzing each variable independently, the theory considers that the overall behavior of the system emerges from the continuous interaction among all variables.
 
----
-
-## II. Principio de la Compensación Geométrica
-
-Cuando una variable reduce su exposición tras un resultado favorable, las restantes incrementan progresivamente la suya siguiendo una regla geométrica previamente definida.
+Its objective is to describe how the dynamic redistribution of exposure between states can produce patterns of stability, compensation, and adaptation under varying statistical conditions.
 
 ---
 
-## III. Principio de la Redistribución Dinámica
+# Fundamental Principles
 
-El sistema redistribuye continuamente la exposición acumulada entre los diferentes estados posibles, generando una evolución colectiva distinta a la de cada variable considerada por separado.
+## I. Principle of Asymmetric Flow
 
----
-
-## IV. Principio del Equilibrio Global
-
-La estabilidad del sistema debe evaluarse sobre el conjunto completo y no sobre una única variable aislada.
+The evolution of a system is determined not only by the behavior of each individual variable but also by the dynamic exchange of exposure among all variables.
 
 ---
 
-# Objetivo
+## II. Principle of Geometric Compensation
 
-La teoría no pretende predecir eventos individuales.
-
-Su finalidad es estudiar el comportamiento colectivo de sistemas con múltiples estados mediante modelos matemáticos y simulaciones computacionales.
+When one variable returns to its minimum exposure after a favorable outcome, the remaining variables progressively increase their exposure according to a predefined geometric rule.
 
 ---
 
-# Implementación
+## III. Principle of Dynamic Redistribution
 
-La primera implementación desarrollada bajo esta teoría recibe el nombre de:
+The system continuously redistributes accumulated exposure among its possible states, producing collective behavior that differs from the analysis of isolated variables.
+
+---
+
+## IV. Principle of Global Equilibrium
+
+System stability must be evaluated from the perspective of the complete system rather than from any single variable in isolation.
+
+---
+
+# Objective
+
+The purpose of this theory is not to predict individual events.
+
+Instead, it provides a conceptual framework for studying the collective behavior of multi-variable systems through mathematical models and computational simulations.
+
+---
+
+# Reference Implementation
+
+The first implementation developed under this theoretical framework is:
 
 **La Pekillada**
 
-Algoritmo de Flujo Asimétrico y Absorción Geométrica.
+**Asymmetric Flow & Geometric Absorption Algorithm**
 
 ---
 
-# Estado
+# Current Status
 
-Versión 1.0
+**Version:** 1.0
 
-Documento conceptual en desarrollo.
+Conceptual framework under continuous development.
 
 ---
 
-© 2026 @Jaypsmall
+© 2026 Jaypsmall
