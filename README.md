@@ -259,12 +259,8 @@ Possible improvements:
 
 # 📚 Documentation
 
-Project documentation:
-
-- 📖 Theory of Asymmetric Flow → `docs/THEORY.md`
-- 📘 Complete Thesis → `docs/THESIS.md`
-- 📐 Mathematical Model → `docs/MATHEMATICAL_MODEL.md`
-- 📊 Simulation Results → `docs/SIMULATION_RESULTS.md`
+- 📖 [Theory of Asymmetric Flow](docs/THEORY.md)
+- 📘 [Complete Thesis](docs/THESIS.md)
 
 ---
 
