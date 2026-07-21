@@ -1,5 +1,5 @@
 # 🔬 La Pekillada
-## Asymmetric Flow & Geometric Absorption Algorithm
+## Reference Implementation of the Asymmetric Flow & Geometric Absorption Algorithm
 
 ---
 
@@ -11,9 +11,7 @@
 
 # 📌 Overview
 
-**La Pekillada** is a theoretical computational model focused on the study of dynamic capital distribution across three simultaneous variables.
-
-The project explores an asymmetric flow system where each variable maintains an independent exposure state and adapts according to previous events.
+**La Pekillada** is the first reference implementation of the **Asymmetric Flow & Geometric Absorption Algorithm**, developed to study the behavior of the **Theory of Asymmetric Flow** through computational simulation.
 
 Created and documented by:
 
@@ -21,11 +19,23 @@ Created and documented by:
 
 Project name:
 
-**"La Pekillada"**
+**La Pekillada**
 
 ---
 
-# 🧠 Concept
+# 🧠 Theoretical Foundation
+
+This repository is based on the **Theory of Asymmetric Flow**, a theoretical framework that studies the dynamic redistribution of exposure across multiple independent variables.
+
+The theory proposes that the collective behavior of a multi-variable system should be analyzed as a whole rather than as isolated variables.
+
+The **Asymmetric Flow & Geometric Absorption Algorithm** provides a mathematical implementation of this theoretical framework.
+
+**La Pekillada** is the first reference implementation created to experimentally evaluate the theory under controlled simulations.
+
+---
+
+# 🧩 Concept
 
 The algorithm is based on an elastic distribution system:
 
@@ -40,7 +50,7 @@ The objective is to analyze the behavior of progressive allocation systems under
 
 # ⚙️ Algorithm Logic
 
-The model follows these rules:
+The model follows these rules.
 
 ## Initial State
 
@@ -60,7 +70,7 @@ When an event occurs:
 
 ### Winning Variable
 
-The winning variable returns to the minimum value:
+The winning variable returns to the minimum value.
 
 ```text
 Winner = 1
@@ -70,7 +80,7 @@ Winner = 1
 
 ### Losing Variables
 
-The losing variables increase:
+The losing variables increase.
 
 ```text
 Loser = Loser × 2
@@ -79,19 +89,17 @@ Loser = Loser × 2
 Example:
 
 ```text
-Initial:
+Initial
 
 A = 1
 B = 1
 C = 1
 
-
-Event:
+Event
 
 A wins
 
-
-New state:
+New state
 
 A = 1
 B = 2
@@ -114,13 +122,13 @@ The system studies:
 Main variables:
 
 ```text
-R = Available resources
+R = Available Resources
 
-E = Exposure level
+E = Exposure Level
 
 V = Variance
 
-T = Number of iterations
+T = Number of Iterations
 ```
 
 ---
@@ -138,11 +146,15 @@ Possible experiments:
 
 Metrics evaluated:
 
-✅ Final balance  
-✅ Maximum exposure reached  
-✅ Maximum drawdown  
-✅ Recovery periods  
-✅ System stability  
+✅ Final balance
+
+✅ Maximum exposure reached
+
+✅ Maximum drawdown
+
+✅ Recovery periods
+
+✅ System stability
 
 ---
 
@@ -186,14 +198,19 @@ Thousands of independent simulations can be executed to measure:
 matrix-flux-algorithm/
 
 │
+├── LICENSE
+├── README.md
 ├── main.py
 ├── simulator.py
-├── README.md
+│
 ├── results/
 │   └── simulations.csv
 │
 └── docs/
-    └── thesis.md
+    ├── THEORY.md
+    ├── THESIS.md
+    ├── MATHEMATICAL_MODEL.md
+    └── SIMULATION_RESULTS.md
 ```
 
 ---
@@ -237,51 +254,66 @@ Possible improvements:
 
 # 📚 Documentation
 
-Full theoretical description:
+Project documentation:
 
-[Read the complete thesis](docs/THESIS.md)
+- 📖 Theory of Asymmetric Flow → `docs/THEORY.md`
+- 📘 Complete Thesis → `docs/THESIS.md`
+- 📐 Mathematical Model → `docs/MATHEMATICAL_MODEL.md`
+- 📊 Simulation Results → `docs/SIMULATION_RESULTS.md`
 
 ---
 
 # 📜 Project Information
 
-**Name:**
+**Theory**
 
-La Pekillada
+Theory of Asymmetric Flow
 
-**Technical Name:**
+**Reference Algorithm**
 
 Asymmetric Flow & Geometric Absorption Algorithm
 
-**Creator:**
+**Reference Implementation**
+
+La Pekillada
+
+**Creator**
 
 @Jaypsmall
 
-**Type:**
+**Type**
 
-Experimental mathematical simulation model
+Experimental mathematical theory, computational model and simulation framework.
 
-**Status:**
+**Status**
 
-Research and development phase
+Research and development.
+
+---
+
+# 📄 License
+
+**Copyright © 2026 Jaypsmall. All Rights Reserved.**
+
+This repository contains original theoretical work, mathematical models, algorithms, software implementations, source code, documentation, simulations, and related materials created by the author.
+
+No part of this repository may be copied, reproduced, modified, redistributed, incorporated into another project, or used for commercial purposes without the prior written permission of the author.
+
+For licensing inquiries:
+
+https://github.com/Jaypsmall
+
+See the **LICENSE** file for the complete license terms.
 
 ---
 
 # ⚠️ Disclaimer
 
-This repository is an experimental mathematical model created for simulation and educational purposes.
+This repository presents an experimental mathematical framework intended for research, simulation and educational purposes.
 
-It is intended to study dynamic allocation systems and statistical behaviour.
+The theoretical framework, algorithms and software implementations are designed to study mathematical behaviour under controlled simulations.
 
-It should not be interpreted as a guarantee of financial performance or prediction capability.
-
----
-
-# ✍️ Attribution
-
-If referencing this model, please cite:
-
-> "La Pekillada - Asymmetric Flow & Geometric Absorption Algorithm, created and documented by @Jaypsmall."
+Nothing in this repository should be interpreted as a guarantee of financial performance, predictive capability or practical results in real-world systems.
 
 ---
 
